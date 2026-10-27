@@ -1,0 +1,8 @@
+/target
+
+*.sqlite
+
+# Anki files
+*.apkg
+*.anki2
+*.anki21b

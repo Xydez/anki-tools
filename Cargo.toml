@@ -1,0 +1,13 @@
+[package]
+name = "anki-tools"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rusqlite = { version = "0.40", features = ["serialize", "bundled", "collation"] }
+unicase = "2.10.0"
+anki-pax = { path = "./anki-pax" }
+diff = "0.1.13"
+console = "0.16.6"
+argh = "0.1.19"
+#thiserror = "2"

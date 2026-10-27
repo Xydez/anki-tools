@@ -1,0 +1,9 @@
+[package]
+name = "anki-pax"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+thiserror = "2"
+zip = { version = "9", features = ["zstd"] }
+zstd = "0.14"
